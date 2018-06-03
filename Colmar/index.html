@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+
+<!-- TO DO
+DONT FORGET ALTS
+
+-->
+
+
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="./css/reset.css" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto" rel="stylesheet">
+    <link rel="stylesheet" href="./css/index.css" type="text/css">
+    <link rel="icon" href="./images/favicon.ico" type="image/x-icon">
+    <title>Colmar Academy</title>
+  </head>
+  <body>
+
+    <!-- Header + Navigation -->
+    <header>
+      <!-- Logo -->
+      <div class="nav-left">
+        <div class="nav-img">
+          <img src="./images/ic-logo.svg" alt="Colmar Academy">
+        </div>
+        <div class="nav-logo">
+          <span class="nav-bold">Colmar</span><span class="nav-grey">Academy</span>
+        </div>
+      </div>
+      <!-- Navigation -->
+      <nav>
+        <ul role="presentation">
+          <li><a href="#">On campus</a></li>
+          <li><a href="#">Online</a></li>
+          <li><a href="#">For companies</a></li>
+          <a href="#"><li id="btn-hglt">Sign in</li></a> <!-- I know this is wrong syntax, but I get problems with my hover otherwise -->
+        </ul>
+      </nav>
+    </header>
+
+    <!-- Header + Navigation MOBILE-->
+    <div class="nav-mobile">
+      <img src="./images/ic-logo.svg" alt="Colmar Academy">
+      <img src="./images/ic-on-campus.svg" alt="On campus">
+      <img src="./images/ic-online.svg" alt="Online">
+      <img src="./images/ic-login.svg" alt="Login">
+    </div>
+
+
+    <!-- 1st section / Banner -->
+    <div class="banner radient" role="banner"> <!-- Tried to make use of role tags within the document but having a hard time finding the right roles, they all seem very specific -->
+      <!-- Banner-left -->
+      <div class="banner-left">
+        <img src="./images/banner.jpg" alt="Learn something new everyday">
+      </div>
+      <!-- Banner-right -->
+      <div class="banner-right">
+        <h1>Learn something new everyday</h1>
+        <h2>Lorem ipsum dolor sit amet, consectetur adipscing elit.</h2>
+        <button>
+          <span id="btn-text">Start here</span>
+        </button>
+      </div>
+
+    </div>
+
+    <!-- 2nd Section -->
+    <div class="banner white info" role="banner">
+      <!-- Banner-left -->
+      <div class="banner-left mobile-delete">
+        <img src="./images/information-main.jpg" alt="It doesn't hurt keep practicing">
+        <h1>It doesn't hurt keep practicing</h1>
+        <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</p>
+        <p class="txt-black"> Emanuel, Sr Strategist at Hiring.com</p>
+      </div>
+          <!-- Banner-right -->
+      <div class="banner-right border-left justify-start">
+        <div class="news white">
+          <div class="news-img">
+            <img src="./images/information-orientation.jpg" class="desktop" alt="Orientation date">
+            <img src="./images/information-orientation-mobile.jpg" class="mobile" alt="Orientation date">
+          </div>
+          <div class="news-text">
+            <h2>Orientation date</h2>
+            <p>Tue 10/11 & Wed 10/12: 8am-3pm</p>
+            <p><a href="#">Read more</a></p>
+          </div>
+        </div>
+          <div class="news white">
+            <div class="news-img">
+              <img src="./images/information-campus.jpg" class="desktop" alt="Our campus">
+              <img src="./images/information-campus-mobile.jpg" class="mobile" alt="Our campus">
+            </div>
+            <div class="news-text">
+              <h2>Our campus</h2>
+              <p>Find which campus is close to you</p>
+              <p><a href="#">Read more</a></p>
+            </div>
+          </div>
+            <div class="news gray">
+              <div class="news-img">
+                <img src="./images/information-guest-lecture.jpg" class="desktop" class="Guest lecture">
+                <img src="./images/information-guest-lecture-mobile.jpg" class="mobile" class="Guest lecture">
+              </div>
+              <div class="news-text">
+                <h2>Our guest lecture</h2>
+                <p>Join a keynote with Oliver Sack about music in medical treatment</p>
+                <p><a href="#">Read more</a></p>
+              </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- 3rd Section / Banner Start Learning -->
+      <div class="lightgray start" role="banner">
+        <div class="headline margin-both">
+            <h1 role="heading">Start learning</h1>
+        </div>
+        <div class="flexbox">
+
+          <div class="box">
+            <img src="./images/course-software.jpg" alt="Software engineering">
+            <h2 class="padding-box">Software engineering</h2>
+            <p class="padding-box">COURSES</p>
+            <p class="padding-box">Web Development, Mobile Development, iOT, APIs</p>
+          </div>
+
+          <div class="box">
+            <img src="./images/course-computer-art.jpg" alt="Computer Art">
+            <h2 class="padding-box">Computer Art</h2>
+            <p class="padding-box">COURSES</p>
+            <p class="padding-box">Imaging & Design, Web Design, Motion Graphics & Visual Effects, Computer Animation</p>
+          </div>
+
+          <div class="box">
+            <img src="./images/course-design.jpg" alt="Design">
+              <h2 class="padding-box">Design</h2>
+              <p class="padding-box">COURSES</p>
+              <p class="padding-box">User Experience Design, User Research, Visual Design</p>
+          </div>
+
+          <div class="box">
+            <img src="./images/course-data.jpg" alt="Data">
+            <h2 class="padding-box">Data</h2>
+            <p class="padding-box">COURSES</p>
+            <p class="padding-box">Data Science, Big Data, SQL, Data Visualization</p>
+          </div>
+
+          <div class="box">
+            <img src="./images/course-business.jpg" alt="Business">
+            <h2 class="padding-box">Business</h2>
+            <p class="padding-box">COURSES</p>
+            <p class="padding-box">Product Development, Business Development, Startup</p>
+          </div>
+
+          <div class="box">
+            <img src="./images/course-marketing.jpg" alt="Marketing">
+              <h2 class="padding-box">Marketing</h2>
+              <p class="padding-box">COURSES</p>
+              <p class="padding-box">Analytics, Content Marketing, Mobile Marketing</p>
+          </div>
+
+        </div>
+      </div>
+
+      <!-- 4th Section -->
+      <div class="white" role="banner">
+        <div class="headline thesis">
+            <h1 role="heading">Thesis exhibit</h1>
+        </div>
+        <div class="banner white info">
+        <!-- Banner-left -->
+        <div class="banner-left">
+          <video src="./videos/thesis.mp4" autoplay controls>
+          </video>
+          <h1 class="mobile-delete">Reimaging urban</h1>
+          <p class="mobile-delete">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</p>
+        </div>
+            <!-- Banner-right -->
+        <div class="banner-right border-left justify-start mobile-delete">
+          <div class="news gray">
+            <div class="news-img">
+              <img src="./images/thesis-fisma.jpg" alt="Fisma">
+            </div>
+            <div class="news-text">
+              <h2>Fisma: Design and Prototype</h2>
+              <p>Designer showcase of new prototype product</p>
+            </div>
+          </div>
+            <div class="news white">
+              <div class="news-img">
+                <img src="./images/thesis-now-and-then.jpg" alt="Now and then">
+              </div>
+              <div class="news-text">
+                <h2>Now and then</h2>
+                <p>Research study on New York</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+<!-- Footer -->
+        <footer>
+          <!-- Logo -->
+          <div class="nav-left">
+              (c) 2016 Colmar Academy. All rights reserved
+          </div>
+          <!-- Navigation -->
+          <div class="nav-right">
+            <ul role="presentation">
+              <li>Terms</li>
+              <li>Privacy</li>
+            </ul>
+          </div>
+        </footer>
+
+
+
+  </body>
+</html>
